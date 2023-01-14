@@ -4,6 +4,7 @@ namespace dnj\Filesystem\Exceptions;
 
 /**
  * @template T
+ *
  * @extends IOException<T>
  */
 class NotFoundException extends IOException
