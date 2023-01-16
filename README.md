@@ -1,10 +1,10 @@
-# filesystem
-# PHP FileSystem (The Filesystem component provides basic utilities for the filesystem and the start point of creating any filesystem)
- 
+# PHP FileSystem
+
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]][link-license]
 [![Total Downloads][ico-downloads]][link-downloads]
- 
+### The Filesystem component provides basic utilities for the filesystem and the start point of creating any filesystem
+
 ## Introduction 
 
 This is a repository intended to serve as a starting point if you want to bootstrap a filesystem in PHP. 
@@ -119,7 +119,7 @@ class Directory extends FileAbstract
 ```
 
 ## DNJ implemented filesystems:
-You can find all implemented filesystems by DNJ by following [GitHub] [link-dnj-filesystems]
+You can find all implemented filesystems by DNJ by following [GitHub][link-dnj-filesystems]
 
 Local FileSystem By DNJ: [Github Repository][repo-dnj-local-filesystem]
 
@@ -131,8 +131,6 @@ S3 FileSystem By DNJ: [Github Repository][repo-dnj-s3-filesystem]
 ### PHP 8
 
 * [PHP 8 new features](http://php.net/manual/en/migration80.new-features.php)
-* [Scalar type declarations example](https://github.com/tpunt/PHP7-Reference#scalar-type-declarations)
-* [Return type declarations example](https://github.com/tpunt/PHP7-Reference#return-type-declarations)
 
 ### PHPUnit
 
