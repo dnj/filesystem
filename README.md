@@ -1,8 +1,10 @@
 # PHP FileSystem
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
-[![Software License][ico-license]][link-license]
 [![Total Downloads][ico-downloads]][link-downloads]
+[![Software License][ico-license]][link-license]
+[![Testing status][ico-workflow-test]][link-workflow-test]
+
 ### The Filesystem component provides basic utilities for the filesystem and the start point of creating any filesystem
 
 ## Introduction 
@@ -148,7 +150,9 @@ The MIT License (MIT). Please see [License File][link-license] for more informat
 [ico-version]: https://img.shields.io/packagist/v/dnj/filesystem.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/dnj/filesystem.svg?style=flat-square
+[ico-workflow-test]: https://github.com/dnj/filesystem/actions/workflows/test.yml/badge.svg
 
+[link-workflow-test]: https://github.com/dnj/filesystem/actions/workflows/test.yml
 [link-packagist]: https://packagist.org/packages/dnj/filesystem
 [link-license]: https://github.com/dnj/filesystem/blob/master/LICENSE
 [link-downloads]: https://packagist.org/packages/dnj/filesystem
