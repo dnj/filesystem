@@ -29,7 +29,9 @@ abstract class Node implements INode
 
     public function getPath(): string
     {
-        return $this->directory.'/'.$this->basename;
+        return ($this->directory == DIRECTORY_SEPARATOR) ?
+                $this->directory.$this->basename :
+                $this->directory.DIRECTORY_SEPARATOR.$this->basename;
     }
 
     /**
