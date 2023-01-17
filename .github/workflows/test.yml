@@ -22,6 +22,15 @@ jobs:
         with:
           php-version: ${{ matrix.php }}
 
+      - name: Check Versions
+        run: |
+            php -v
+            php -m
+            composer --version
+
+      - name: Validate composer.json and composer.lock
+        run: composer validate
+
       - name: Install Composer dependencies
         run: composer install --prefer-dist --no-interaction --no-progress
 
